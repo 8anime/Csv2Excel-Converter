@@ -4,8 +4,8 @@ import os
 import csv
 import openpyxl
 
-SCRIPT_LOC = os.path.abspath(__file__)     # Construct a path to get location of the current script(csvToExcel.py)
-SCRIPT_DIR = os.path.dirname(SCRIPT_LOC)   # Get the directory where the script(csvToExcel.py) is located
+SCRIPT_LOC = os.path.abspath(__file__)     # Construct a path to get location of the current script(csvToExcelConverter.py)
+SCRIPT_DIR = os.path.dirname(SCRIPT_LOC)   # Get the directory where the script(csvToExcelConverter.py) is located
 ROOT_DIR = os.path.dirname(SCRIPT_DIR)     # Get the directory where the script directory is located, which is the root directory
 CSV_FOLDER = 'csvFiles'                    # Name of the folder that contains csv data
 EXCEL_FOLDER = 'excelFiles'                # Folder that will contain the csv data in excel format
